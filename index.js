@@ -3,8 +3,8 @@ var app=express();
 var socket=require('socket.io');
 var fs = require('fs');
  var pdf = require('html-pdf');
-
-var server=app.listen(4000,function(){
+var port=process.env.PORT || 4000;
+var server=app.listen(port,function(){
     console.log('listening');
 });
 app.use(express.static('assets'));
