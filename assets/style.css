@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+    background:url(1.jpg);
+     background-size: cover;
+
+}
+.input_box{
+  
+    height:100%;
+    background-color:white;
+    /* width:793.70px; */
+    height:1122.51px;
+    margin:4% 10% 5%;
+
+
+}
+#ip_box{
+       height:930px;
+       padding:96px 96px 96px;
+    border:none;
+    overflow:hidden;
+  
+
+}
+#name_of_company{
+    text-align: center;
+    padding-top: 8%;
+    text-transform: uppercase;
+    color:#4d94ff;
+  
+}
+.underline{
+    /* margin-top: 2vh; */
+    /* width: 80vw; */
+    /* display: flex; */
+    justify-content: center;
+    margin-bottom: 7vh;
+  
+}
+.underline div{
+    width: 300px;
+    height: 3px;
+    background: #4d94ff;
+    
+    margin:1% 0% 5% 35%;
+}
